@@ -18,7 +18,7 @@ function assertEqual(output, expected) {
 
 test('JUST', function (done) {
   transform.renderAsync(input, null, { name: 'World' }).then(function (res) {
-  	assertEqual(res.trim(), expected.trim());
-  	done();
+    assertEqual(res.trim(), expected.trim());
+    done();
   });
 });
