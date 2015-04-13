@@ -16,16 +16,12 @@ exports.renderAsync = function (str, options, locals) {
   var template = new Just(options);
 
   // Build the Promise to render the template.
-  var promise = new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, reject) {
     template.render('page', locals, function (err, output) {
       if (err) {
-        reject(err);
+        return reject(err);
       }
-      else {
-        resolve(output);
-      }
+      resolve(output);
     });
   });
-
-  return promise;
 };
