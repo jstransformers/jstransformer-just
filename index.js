@@ -4,7 +4,6 @@ var Just = require('just');
 var Promise = require('promise');
 
 exports.name = 'just';
-exports.inputFormats = ['just'];
 exports.outputFormat = 'html';
 
 exports.renderAsync = function (str, options, locals) {
