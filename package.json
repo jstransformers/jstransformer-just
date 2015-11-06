@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-just",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JUST support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -8,22 +8,27 @@
   "files": [
     "index.js"
   ],
-  "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
-  },
-  "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-JUST.git"
-  },
-  "author": "Rob Loach <robloach@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "just": "^0.1.8",
     "promise": "^7.0.0"
-  }
+  },
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-just.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
