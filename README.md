@@ -15,12 +15,12 @@
 ## API
 
 ```js
-var just = require('jstransformer')(require('jstransformer-just'));
+var just = require('jstransformer')(require('jstransformer-just'))
 
 just.renderAsync('Hello, <%= name %>!', { name: 'World' }, function (err, data) {
   data.body
   //=> 'Hello, World!'
-});
+})
 ```
 
 ## License
