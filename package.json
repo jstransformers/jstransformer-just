@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "just": "^0.1.8",
-    "promise": "^7.0.0"
+    "promise": "^8.0.1"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
