@@ -19,6 +19,7 @@ exports.renderAsync = function (str, options, locals) {
       if (err) {
         return reject(err)
       }
+
       resolve(output)
     })
   })
