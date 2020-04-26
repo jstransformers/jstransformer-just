@@ -5,7 +5,6 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-just/master.svg)](https://travis-ci.org/jstransformers/jstransformer-just)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-just/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-just)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-just/master.svg)](http://david-dm.org/jstransformers/jstransformer-just)
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-just.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-just.svg)](https://www.npmjs.org/package/jstransformer-just)
 
 ## Installation
